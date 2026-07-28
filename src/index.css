@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import "tailwindcss";
+
+/* @custom-variant dark (&:where(.dark, .dark *)); */
+
+html, body {
+  overscroll-behavior: none;
+  @apply bg-linear-to-br from-blue-700/10 via-blue-700/1 to-blue-900/10;
+}
+
+.scroll {
+  scrollbar-width: thin;
+}
+
+@theme {
+  /* Aqui van las variables */
+
+  /* Variables para el color baltic-blue (Principal) */
+  --color-baltic-blue-50: oklch(96.45% 0.017 225.19);
+  --color-baltic-blue-100: oklch(93.01% 0.033 226.32);
+  --color-baltic-blue-200: oklch(86.01% 0.065 228.58);
+  --color-baltic-blue-300: oklch(79.51% 0.095 229.43);
+  --color-baltic-blue-400: oklch(73.47% 0.121 231.91);
+  --color-baltic-blue-500: oklch(67.79% 0.14 236.4);
+  --color-baltic-blue-600: oklch(57.74% 0.117 235.71);
+  --color-baltic-blue-700: oklch(46.93% 0.093 235.01);
+  --color-baltic-blue-800: oklch(35.51% 0.068 234.62);
+  --color-baltic-blue-900: oklch(23.38% 0.04 230.85);
+  --color-baltic-blue-950: oklch(19.33% 0.032 230.44);
+
+  /* Variables para el color pacific-cyan (Secundario) */
+  --color-pacific-cyan-50: oklch(97.12% 0.017 210.19);
+  --color-pacific-cyan-100: oklch(94.27% 0.034 208.01);
+  --color-pacific-cyan-200: oklch(88.83% 0.066 208.11);
+  --color-pacific-cyan-300: oklch(83.78% 0.093 208.57);
+  --color-pacific-cyan-400: oklch(79.44% 0.114 208.83);
+  --color-pacific-cyan-500: oklch(75.46% 0.126 211.51);
+  --color-pacific-cyan-600: oklch(64.01% 0.106 210.57);
+  --color-pacific-cyan-700: oklch(51.79% 0.085 211.2);
+  --color-pacific-cyan-800: oklch(39.08% 0.062 210.76);
+  --color-pacific-cyan-900: oklch(25.23% 0.037 209.74);
+  --color-pacific-cyan-950: oklch(20.63% 0.029 211.01);
+
+  /* Variables para el color silver (Neutro) */
+  --color-silver-50: oklch(96.14% 0.001 286.37);
+  --color-silver-100: oklch(92.37% 0.003 228.79);
+  --color-silver-200: oklch(84.42% 0.004 247.87);
+  --color-silver-300: oklch(76.45% 0.006 239.85);
+  --color-silver-400: oklch(68.31% 0.007 233.7);
+  --color-silver-500: oklch(59.87% 0.01 232.48);
+  --color-silver-600: oklch(51.04% 0.008 233.76);
+  --color-silver-700: oklch(41.76% 0.007 239.98);
+  --color-silver-800: oklch(31.99% 0.005 247.97);
+  --color-silver-900: oklch(21.6% 0.004 228.98);
+  --color-silver-950: oklch(18.15% 0.003 247.97);
+
+  --color-rich-mahogany-50: oklch(94.56% 0.024 17.59);
+  --color-rich-mahogany-100: oklch(89.44% 0.049 18.1);
+  --color-rich-mahogany-200: oklch(79.43% 0.103 19.6);
+  --color-rich-mahogany-300: oklch(70.5% 0.162 22.09);
+  --color-rich-mahogany-400: oklch(63.64% 0.211 25.52);
+  --color-rich-mahogany-500: oklch(59.7% 0.238 28.62);
+  --color-rich-mahogany-600: oklch(50.62% 0.201 28.5);
+  --color-rich-mahogany-700: oklch(41.13% 0.161 28.29);
+  --color-rich-mahogany-800: oklch(30.93% 0.117 27.66);
+  --color-rich-mahogany-900: oklch(19.98% 0.071 26.45);
+  --color-rich-mahogany-950: oklch(16.47% 0.055 25.63);
+
+   --font-Wix: "Wix Madefor Display", sans-serif;
+   --font-Ubuntu: "Ubuntu", sans-serif;
+   --font-Karin: "Karin", sans-serif;
+}
