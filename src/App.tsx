@@ -1,4 +1,6 @@
 import { Hero } from "./components/Hero";
+import { Education } from "./components/Education";
+import { ProfessionalInterests } from "./components/ProfessionalInterests";
 import { AboutMe } from "./components/AboutMe.tsx";
 import { Projects } from "./components/Projects.tsx";
 import { Footer } from "./components/Footer";
@@ -15,11 +17,13 @@ export default function App() {
       <main className="relative w-full pb-12">
         <Background />
         <Hero />
+        <Education />
         <Projects />
         <AboutMe />
         <NodeProvider>
           <SkillTree />
         </NodeProvider>
+        <ProfessionalInterests />
         <AnimateSection />
         <Contact />
       </main>
